@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-API_Run">
+              <span class="suite-name border-passed">API Run</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-API_Run">
+                    <span>C:\kannan\Selenium\Workspace\Workspace1\cmpute.io\suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-API_Run">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-API_Run">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-API_Run">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-API_Run">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-API_Run">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-API_Run">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-API_Run" class="hide-methods passed suite-API_Run"> (hide)</a> <!-- hide-methods passed suite-API_Run -->
+                      <a href="#" panel-name="suite-API_Run" class="show-methods passed suite-API_Run"> (show)</a> <!-- show-methods passed suite-API_Run -->
+                    </span>
+                    <div class="method-list-content passed suite-API_Run">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="Create_PostResource">Create_PostResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="DeleteResource">DeleteResource</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="ValidateCookies">ValidateCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="ValidateLongResponse">ValidateLongResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="Validate_Response_Body">Validate_Response_Body</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="Validate_Response_Headers">Validate_Response_Headers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-API_Run" title="InterviewProject.cmpute.io.testExecution" hash-for-method="getResponseDetails">getResponseDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-API_Run -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-API_Run" class="panel API_Run">
+          <div class="suite-API_Run-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">InterviewProject.cmpute.io.testExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_PostResource">
+                  </a> <!-- Create_PostResource -->
+                  <span class="method-name">Create_PostResource</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteResource">
+                  </a> <!-- DeleteResource -->
+                  <span class="method-name">DeleteResource</span>
+                  <em>
+(Validating Delete Requests)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateCookies">
+                  </a> <!-- ValidateCookies -->
+                  <span class="method-name">ValidateCookies</span>
+                  <em>
+(Validating the cookies)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateLongResponse">
+                  </a> <!-- ValidateLongResponse -->
+                  <span class="method-name">ValidateLongResponse</span>
+                  <em>
+(Validate Cookies)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Response_Body">
+                  </a> <!-- Validate_Response_Body -->
+                  <span class="method-name">Validate_Response_Body</span>
+                  <em>
+(Validate Headers with JSON Parsing)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Response_Headers">
+                  </a> <!-- Validate_Response_Headers -->
+                  <span class="method-name">Validate_Response_Headers</span>
+                  <em>
+(Check all responses in console and validate using Advanced assertions)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getResponseDetails">
+                  </a> <!-- getResponseDetails -->
+                  <span class="method-name">getResponseDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Run-class-passed -->
+        </div> <!-- panel API_Run -->
+        <div panel-name="test-xml-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\kannan\Selenium\Workspace\Workspace1\cmpute.io\suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;API Run&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;API Validations&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;InterviewProject.cmpute.io.testExecution&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Validations --&gt;
+&lt;/suite&gt; &lt;!-- API Run --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for API Run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Validations (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for API Run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for API Run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_API_Run');
+function tableData_API_Run() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getResponseDetails')
+data.setCell(0, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(0, 3, 4695);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ValidateLongResponse')
+data.setCell(1, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(1, 3, 1333);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DeleteResource')
+data.setCell(2, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(2, 3, 1103);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Create_PostResource')
+data.setCell(3, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(3, 3, 850);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Validate_Response_Body')
+data.setCell(4, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(4, 3, 382);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateCookies')
+data.setCell(5, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(5, 3, 207);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Validate_Response_Headers')
+data.setCell(6, 2, 'InterviewProject.cmpute.io.testExecution')
+data.setCell(6, 3, 28);
+window.suiteTableData['API_Run']= { tableData: data, tableDiv: 'times-div-API_Run'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-API_Run">
+              </div> <!-- times-div-API_Run -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for API Run</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-API_Run" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">InterviewProject.cmpute.io.testExecution</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getResponseDetails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Response_Headers</span>
+                <span class="method-start">4713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_Response_Body</span>
+                <span class="method-start">4748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Create_PostResource</span>
+                <span class="method-start">5136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteResource</span>
+                <span class="method-start">5989 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLongResponse</span>
+                <span class="method-start">7096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateCookies</span>
+                <span class="method-start">8444 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

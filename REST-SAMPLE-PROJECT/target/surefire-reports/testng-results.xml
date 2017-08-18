@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Run" duration-ms="8606" started-at="2017-08-15T20:13:36Z" finished-at="2017-08-15T20:13:44Z">
+    <groups>
+    </groups>
+    <test name="API Validations" duration-ms="8606" started-at="2017-08-15T20:13:36Z" finished-at="2017-08-15T20:13:44Z">
+      <class name="InterviewProject.cmpute.io.testExecution">
+        <test-method status="PASS" signature="getResponseDetails()[pri:0, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="getResponseDetails" duration-ms="5022" started-at="2017-08-16T01:43:36Z" finished-at="2017-08-16T01:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseDetails -->
+        <test-method status="PASS" signature="Validate_Response_Headers()[pri:1, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="Validate_Response_Headers" duration-ms="26" started-at="2017-08-16T01:43:41Z" description="Check all responses in console and validate using Advanced assertions" finished-at="2017-08-16T01:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Response_Headers -->
+        <test-method status="PASS" signature="Validate_Response_Body()[pri:2, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="Validate_Response_Body" duration-ms="954" started-at="2017-08-16T01:43:41Z" description="Validate Headers with JSON Parsing" depends-on-methods="InterviewProject.cmpute.io.testExecution.Validate_Response_Headers" finished-at="2017-08-16T01:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Response_Body -->
+        <test-method status="PASS" signature="Create_PostResource()[pri:3, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="Create_PostResource" duration-ms="834" started-at="2017-08-16T01:43:42Z" description="Create new resource using Post" depends-on-methods="InterviewProject.cmpute.io.testExecution.Validate_Response_Body" finished-at="2017-08-16T01:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_PostResource -->
+        <test-method status="PASS" signature="DeleteResource()[pri:4, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="DeleteResource" duration-ms="843" started-at="2017-08-16T01:43:43Z" description="Validating Delete Requests" finished-at="2017-08-16T01:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteResource -->
+        <test-method status="PASS" signature="ValidateLongResponse()[pri:5, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="ValidateLongResponse" duration-ms="626" started-at="2017-08-16T01:43:43Z" description="Validate Cookies" finished-at="2017-08-16T01:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLongResponse -->
+        <test-method status="PASS" signature="ValidateCookies()[pri:6, instance:InterviewProject.cmpute.io.testExecution@1888ff2c]" name="ValidateCookies" duration-ms="198" started-at="2017-08-16T01:43:44Z" description="Validating the cookies" finished-at="2017-08-16T01:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCookies -->
+      </class> <!-- InterviewProject.cmpute.io.testExecution -->
+    </test> <!-- API Validations -->
+  </suite> <!-- API Run -->
+</testng-results>
